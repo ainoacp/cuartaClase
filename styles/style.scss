@@ -1,0 +1,11 @@
+    /*importante traer primero variables*/
+
+    @import "./utilities/colors";
+    @import "./utilities/sizes";
+    @import "./utilities/mixin";
+
+
+    /*después de las variables traemos los bloques*/
+
+    @import "./blocks/clase";
+    @import "./blocks/pepito";

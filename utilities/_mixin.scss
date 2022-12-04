@@ -1,0 +1,22 @@
+@mixin flexElement($direction, $wrap, $justify, $align){
+    display: flex;
+    justify-content: $justify;
+    flex-wrap: $wrap;
+    flex-direction: $direction;
+    align-items: $align;
+
+}
+
+@mixin buttonElement($bgColor, $color, $padding){
+    background-color: $bgColor;
+    color: $color;
+    padding: $padding;
+}
+
+@mixin titleElement($size, $orientation){
+    font-size: $size;
+    text-align: $orientation;
+    display: block;
+    padding: 10px;
+}
+
